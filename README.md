@@ -24,6 +24,12 @@ npm install
 ```
 - Build and run the project
 ```
+Replace MongoDB connection to yours in app.js.
+Insert data.json into your database in collection with the name "products".
+Replace Stripe keys to yours in controllers/orders.js
+Replace JWT secret in controllers/auth.js and middleware/is-auth.js.
+```
+```
 npm start
 ```
   API is listening on `http://localhost:4000`
